@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+    <style>
+        fieldset{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <legend>Dados Pessoais</legend>
+   
+    <form action="" method="get">
+<div>Digite o seu nome: <input type="text"  id="nome" name="nome" placeholder="Ex: João da Silva" required></div>
+<br>
+<div>Idade: <input type="number" id="id" name="id" placeholder="18" required> </div>
+<br>	
+<div>E-mail: <input type="email"  id="em" name="em" placeholder="Ex: joao@silva.com" required></div>
+ <br>
+<div>Senha: <input type="text" id="se" name="se" placeholder="Digite uma senha forte" required> </div>
+<div>
+<br>
+<br>
+<br>
+    Selecione Estado
+ <select name= "-Selecione-  "  id="-Selecione-    "  >
+    <option value="Selecione">-Selecione-  &nbsp &nbsp&nbsp &nbsp</option>
+    <option value="Selecione">-Selecione-    </option>
+    <option value="Selecione">-Selecione-    </option>
+<br>
+</select>
+</fieldset>
+<fieldset>
+    <legend>Dados Profissonais</legend>
+    <style>
+        fieldset{
+            width: 600px;
+        }
+    </style>
+    <br>
+<br>
+Selecione as Tecnologias 
+    <div><input type="checkbox"  id="ht" name="ht" >HTML
+    <input type="checkbox"  id="cs" name="cs" >CSS
+    <input type="checkbox"  id="ja" name="ja" >Javascript
+    <input type="checkbox"  id="ty" name="ty" >Typescript</div>
+<br>
+<br>
+       Selecione sua Ocupaçâo
+<div><input type="radio"  id="fe" name="fe" >Front-End
+        <input type="radio"  id="be" name="be" >Back-End
+        <input type="radio"  id="fs" name="fs" >Full Stack
+       </div>
+<br>
+<br>
+Escreva sobre você:
+<br>
+<textarea id="te" name="te" rows="4" cols="50"></textarea>
+   <br>
+   <br>
+<br>
+   Anexe seu currículo: <input type="file"  value="Escolher arquivo"> Nenhum arquivo escolhido
+
+</fieldset>
+</select>
+<br>
+<br>
+<br>
+<div>
+    <input type="submit"  value="Enviar">
+     
+     <input type="reset" value="reset">
+    <br>
+    <br>
+    <br>
+     <div><a href="./index.html">Voltar</a></div>
+    </div>
